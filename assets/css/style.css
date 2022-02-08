@@ -3,14 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(to left ,#e66465 ,#9198e5);
+}
 .div-nav-h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgba(240, 248, 255, 0.212);
     height: 14vh;
     width: 100%;
     flex-wrap: wrap;
+    color: white;
 }
 .div-h1{
     font-family: sans-serif;
@@ -22,9 +25,85 @@
     font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 10px;
     width: 100vw;
     height: auto;
     font-weight: 500;
 }
+.div-nav-link:hover{
+    color: rgb(68, 65, 65);
+    border-bottom: 1px solid #ffffff;
+    transition:all ease 0.9s ;
+}
+.div-h1-conteudo{
+    font-size: 30px;
+    margin: 18px;
+    color: white;
+    text-align: center;
+}
+.div-p-conteudo{
+    font-size: 17px;
+    margin: 0 0 60px 0px;
+    color: white;
+    text-align: center;
+}
+.sec-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left ,#e66465 ,#9198e5);
+    height: 86vh;
+}
+.div.main-principal{}
+.div-conteudo{}
+.div-bottons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 60px 0px;
+    
+}
+.div-bnt{
+    height: 7vh;
+    width: 21vw;
+    margin: 0 25px 0px 0px;
+    border: #9198e5;
+    transform: scale(1);
+    border-radius: 13px;
+    
+}
+.div-bnt:hover{
+    transition:all ease 0.9s ;
+    background-color: gray;
+    color: white;
+}
+.div-bnt-1{
+    height: 9vh;
+    width: 21vw;
+    margin: 0 25px 0px 0px;
+    background: #ff6a00;
+    border: solid 1px #9198e5;
+    font-size: 17px;
+    color: white;
+    border-radius: 13px;
+    transform: scale(1);
+
+    
+}
+.div-bnt-1:hover{
+    background-color: #e73939;
+    color: rgb(245, 245, 245);
+    border: solid 1px #9198e5;
+    transition:all ease 0.9s ;
+
+    
+}
+.div-img-header{}
+.img-header{
+    width: 45vw;
+    height: 65vh;
+    margin: 0px 0px 0px 20px;
+    filter: opacity(0.8);
+}
+
