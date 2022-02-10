@@ -38,12 +38,12 @@ body{
 }
 .div-h1-conteudo{
     font-size: 50px;
-    margin: 18px;
+    margin: 0 0 40px 0;
     color: white;
     text-align: center;
 }
 .div-p-conteudo{
-    font-size: 17px;
+    font-size: 23px;
     margin: 0 0 60px 0px;
     color: white;
     text-align: center;
@@ -195,6 +195,59 @@ body{
 }
 
 /*Cadastro no app do Tony*/
+.conteniner-receba-novidades{
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.h2-novidades{
+    font-size: 48px;
+    width: 74vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 57px;
+}
+.div-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+.p-novidades{
+    font-size: 24px;
+    color: white;
+    margin: 0 26px 0 0px;
+    font-family: sans-serif;
+}
+.input-novidade{
+    height: 7vh;
+    width: 30vw;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 15px 0 0px;
+    font-family: system-ui;
+    border:solid 1px white;
+}
+.input-novidade:hover{
+    border-radius: 20px;
+    transition: all ease 0.4s;
 
+}
+.bnt-novidade{
+    height: 7vh;
+    width: 10vw;
+    font-size: 15px;
+    background: #ec8236;
+    color: white;
+}
+.bnt-novidade:hover{
+    transition: all ease 0.5s;
+    border-radius: 20px;
+    background: #fa6800;
+}
+/*Parte de formulario*/
 
 
