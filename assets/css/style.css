@@ -249,5 +249,54 @@ body{
     background: #fa6800;
 }
 /*Parte de formulario*/
+.conteiner-formulario{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.h2-formulario{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 78px;
+    font-family: system-ui;
+}
+.cont-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs-formulario{
+    height: 7vh;
+    width: 40vw;
+    margin: 40px 70px 10px 0px;
+    padding: 10px;
+    font-size: 21px;
+}
+.inputs-formulario:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 15px;
+}
+.div-cont-formu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.textarea-form{
+    height: 35vh;
+    font-size: 20px;
+    margin: 38px 0px 0px 0px;
+    padding: 10px;
+}
+.textarea-form:hover{
+    filter: drop-shadow(2px 4px 6px black);
+}
+.bnt-form-input{}
+.bnt-form{}
 
 
