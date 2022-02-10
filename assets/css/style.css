@@ -193,7 +193,6 @@ body{
 .img-tony-disponivel:hover{
     filter: drop-shadow(2px 4px 6px black);
 }
-
 /*Cadastro no app do Tony*/
 .conteniner-receba-novidades{
     height: 50vw;
@@ -271,7 +270,7 @@ body{
 .inputs-formulario{
     height: 7vh;
     width: 40vw;
-    margin: 40px 70px 10px 0px;
+    margin: 20px 44px 44px 0px;
     padding: 10px;
     font-size: 21px;
 }
@@ -296,7 +295,34 @@ body{
 .textarea-form:hover{
     filter: drop-shadow(2px 4px 6px black);
 }
-.bnt-form-input{}
-.bnt-form{}
+.bnt-form{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: auto;
+}
+.bnt-form-input{
+    height: 7vh;
+    width: 6vw;
+    margin: 5px 0px 0px 0px;
+    background: #ec8236;
+    color: white;
+    border: solid 1px white;
+}
+.bnt-form-input:hover{
+    transition: all ease 0.5s;
+    border-radius: 20px;
+    background: #fa6800;
+}
+/*Rodapé*/
+.conteiner-rodape{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 23px;
+}
+
 
 
