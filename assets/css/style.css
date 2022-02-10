@@ -104,15 +104,14 @@ body{
     filter: opacity(0.8);
 }
 /*Novos usuarios*/
-
 .conteiner-users{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: aliceblue;
     height: 100vh;
     flex-wrap: wrap;
+    background-color: white;
 }
 .h1-user{
     font-size: 60px;
@@ -152,5 +151,50 @@ body{
     font-size: 22px;
     font-family: sans-serif;
 }
+/*Parte do Amigo Tony*/
+.conteiner-tony{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+.img-tony{
+    width: 58vw;
+    flex-wrap: wrap-reverse;
+    height: auto;
+}
+.conteiner-conteudo-tony{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0 20px 0 20px;
+    margin: 10px;
+}
+.h2-tony{
+    font-size: 55px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
+}
+.p-tony{
+    font-size: 20px;
+    margin: 0px 0px 42px 0px;
+    font-family: sans-serif;
+}
+.img-tony-disponivel{
+    height: 12vh;
+    width: 32vw;
+    margin: 0px 0px 30px 0px;
+    border-radius: 23px;
+}
+.img-tony-disponivel:hover{
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+/*Cadastro no app do Tony*/
+
 
 
