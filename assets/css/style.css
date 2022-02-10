@@ -37,7 +37,7 @@ body{
     transition:all ease 0.9s ;
 }
 .div-h1-conteudo{
-    font-size: 30px;
+    font-size: 50px;
     margin: 18px;
     color: white;
     text-align: center;
@@ -55,8 +55,6 @@ body{
     background: linear-gradient(to left ,#e66465 ,#9198e5);
     height: 86vh;
 }
-.div.main-principal{}
-.div-conteudo{}
 .div-bottons{
     display: flex;
     align-items: center;
@@ -99,11 +97,60 @@ body{
 
     
 }
-.div-img-header{}
 .img-header{
     width: 45vw;
     height: 65vh;
     margin: 0px 0px 0px 20px;
     filter: opacity(0.8);
 }
+/*Novos usuarios*/
+
+.conteiner-users{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: aliceblue;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.h1-user{
+    font-size: 60px;
+    font-family: system-ui;
+}
+.sec-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+}
+.card-user{
+    height: 50vh;
+    width: 20vw;
+    flex-wrap: wrap;
+}
+.h2-user{
+    text-align: center;
+    font-size: 32px;
+    margin: 0 70px 40px 34px;
+}
+.img-usuarios{
+    border-radius: 50%;
+    height: 20vh;
+    width: 14vw;
+    margin: 17px 0px 15px 39px;
+}
+.img-usuarios:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    transition: all ease 0.2s;
+}
+.p-user{
+    width: 20vw;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
 
